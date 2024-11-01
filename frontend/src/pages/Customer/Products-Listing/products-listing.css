@@ -1,0 +1,240 @@
+.filter_heading{
+    line-height: inherit;
+    font-size: 15px;
+    padding: 0;
+    width: 100%;
+    color: #333!important;
+    font-weight: 700!important;
+    text-transform: capitalize;
+    margin: 14px 0!important;
+    float: left;
+    text-transform: capitalize!important;
+}
+.custom-checkbox > div {
+    -moz-column-gap: 7px;
+    column-gap: 7px;
+}
+.filter_list label {
+    width: 100%;
+    float: left;
+    color: #333;
+}
+.custom-control {
+    margin-bottom: 7px;
+}
+.filter_list input {
+    float: left;
+    height: 16px;
+}
+.custom-control-input{
+    accent-color: rgba(0,128,0,.5098039215686274);
+}
+.mt-1 {
+    margin-top: 0.25rem!important;
+}
+.nav-tabs-desktop > li {
+    border-bottom: 1px solid #edecec;
+    position: relative;
+}
+.pf-5{
+    padding-left: 1.5rem;
+}
+.price-filter input {
+    width: 35%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+}
+.price-filter p {
+    color: #212529;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+.spec-images img {
+    max-width: 80px;
+}
+.spec-images {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.cardSia {
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+}
+
+.cardSia .product-imgContainer {
+    height: 220px;
+    position: relative;
+}
+.cardSia .listCard3-contentWrap {
+    height: 200px;
+    padding: 10px 15px 0;
+}
+.cardSia .country {
+    color: #acacac;
+    font-size: 12px;
+    text-transform: capitalize;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+.cardSia .listCard3-contentWrap .listCard3-head {
+    color: #000!important;
+    font-weight: 700!important;
+    width: 100%;
+    font-size: 16px !important;
+    min-height: 35px;
+    max-height: 35px;
+    margin-left: 0!important;
+    margin-bottom: 0!important;
+    text-align: left!important;
+}
+.cardSia .listCard3-head-container {
+    flex-direction: column;
+}
+.cardSia .card-text-dumy {
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    height: 20px;
+}
+/* CSS CHO PRODUCTS-LISTING  */
+.page--body{
+    padding: 0 4%;
+    padding-top: 1%;
+    display: flex!important;
+      margin: 15px 1% 0 0;
+      overflow-x: hidden;
+      min-height: 100vh;
+       color:#fff!important;
+  }
+  /* Css phần Lọc */
+  .filterT2-container{
+    width: 20%;
+    background: #fff;
+  }.filters_full{
+    width: 100%;
+    float: left;
+    background: #fff;
+    margin-top: 3px;
+  }
+  .nav_filterT2{
+    display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+  
+  }
+  .nav-tabs-desktop{
+    width: 100%;
+    float: left;
+    border: none;
+  }
+  .filterT2_title{
+    line-height: inherit;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+    color: #333!important;
+    font-weight: 600!important;
+    text-transform: capitalize;
+    margin: 14px 0!important;
+    float: left;
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important
+  }
+  .custom-checkbox > div {
+    -moz-column-gap: 7px;
+    column-gap: 7px;
+  }
+  .custom-control .custom-control-label {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333;
+   
+  }
+  .custom-control{
+    margin-bottom: 7px;
+  }
+  
+  
+  
+  
+  
+  /* phần sp */
+  .grid_layout{
+    width: 72%;
+  
+  }
+  .cp_full_width {
+    /* width: 100%; */
+    float: left;
+  }
+  .mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+  }
+  .showing-products{
+    font-size: 16px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    color: #000;
+  }
+  .sortByStrip{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: auto;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-right: 15px;
+    margin-bottom: 30px!important;
+    justify-content: space-between;
+  }
+  .sort-by-last{
+    display: flex;
+    align-items: center;
+  }
+  .sort-span {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+  .sortByStrip .sortBy{
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    padding: 10px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-right: 35px;
+  }.sortByStrip .sortBy .select_sort {
+    border: none;
+    cursor: pointer;
+    color: #939393;
+    font-weight: 600;
+    width: 100px;
+  }.select_sort {
+    color: #888!important;
+    font-size: 13px!important;
+  }
+  /* Thiết lập kiểu cho tùy chọn được chọn */
+  .select_sort option:checked {
+    border: none;
+    display: none; /* Ẩn tùy chọn được chọn */
+  }

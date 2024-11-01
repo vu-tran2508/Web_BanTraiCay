@@ -1,0 +1,70 @@
+/* CSS sản phẩm */
+#product1 {
+  padding-bottom: 15px;
+
+}
+
+#product1 h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+   line-height: 2rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#product1 a {
+  margin-top: 0;
+  color: #ababab;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+#product1 .pro-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: #40b87b;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: #40b87b;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #40b87b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

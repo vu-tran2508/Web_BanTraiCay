@@ -1,0 +1,225 @@
+
+.pro {
+  width: calc(20% - 30px);
+  /* 20% để hiển thị 5 sản phẩm trên 1 hàng */
+  min-width: 250px;
+  padding: 10px 12px;
+  background-color: #fff;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 5px;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+.pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.pro img {
+  width: 100%;
+}
+
+.pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+
+
+
+.pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 16px;
+  color: #000 !important;
+  font-weight: 700 !important;
+  width: 100%;
+  font-family: 'Tajawal', sans-serif;
+  min-height: 35px;
+  max-height: 35px;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+}
+
+.pro .des i {
+  font-size: 12px;
+  color: rgb(241, 183, 26);
+}
+ .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+#Nation {
+  color: #acacac;
+  font-size: 12px;
+  text-transform: capitalize;
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  border: 1px solid #cce7d0;
+  color: #6a5f5fc8;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.pro-price span {
+  color: #40b87b;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 5px;
+  display: block;
+}
+
+.add-to-cart-btn {
+  background-color: #40b87b;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  padding: 9px 0;
+  border: 0;
+  display: flex;
+  width: 100%;
+  font-family: 'Tajawal', sans-serif;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-to-cart-btn:active {
+  background-color: #367a38;
+  transform: scale(0.9);
+}
+
+.fa-basket-shopping {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+/* icon giams gia va tim */
+.item-label {
+  font-size: 0;
+  height: 30px;
+}
+
+.item-label img {
+  max-width: 80px;
+
+
+}
+
+.lb-tragop {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.item-heart {
+  position: absolute;
+  padding-top: 20px;
+  padding-right: 20px;
+  top: 0;
+  right: 0;
+  width: 50%;
+  /* Đặt chiều rộng của .item-heart là 50% để nó nằm ở bên phải */
+  text-align: right;
+}
+
+.item-heart i {
+  font-size: 20px;
+  color: #acacac;
+  max-width: 80px;
+  height: 30px;
+  /* Thiết lập chiều cao của icon */
+}
+.item-heart .heart-icon{
+  font-size: 20px;
+color: #acacac;
+max-width: 80px;
+height: 30px;
+
+}
+
+
+/* Khi có lớp yellow-heart, đổi màu của icon trái tim thành màu vàng */
+.item-heart i.yellow-heart {
+  color: #40b87b;
+  /* hoặc màu vàng khác tuỳ theo ý muốn của bạn */
+}
+/*  Top Rated Best Selling On Sale*/
+
+.card {
+  border: 0;
+}
+
+.listCard3-head {
+  color: rgb(17, 17, 17);
+  font-size: 25px;
+  font-weight: 400;
+  font-size: 12px !important;
+  text-align: left !important;
+  margin-bottom: 5px !important;
+}
+
+#pro-mainPrice {
+  color: #40b87b;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 5px;
+  display: block;
+}
+
+#priceUnit1 {
+  color: #acacac;
+  font-size: 13px;
+}
+
+.selas-unit {
+  color: #acacac;
+  font-size: 13px;
+
+}
+
+.cardSiaTop .add-to-cart-btn {
+  background-color: #40b87b;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+  width: 100% !important;
+  margin-top: 10px !important;
+  padding: 7px 0;
+  border: 0;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.delivery-sec {
+  background: #fafafa;
+  padding: 30px 0;
+}
+.container-logo{
+  max-width: 960px;
+}
+.fa-basket-shopping {
+  font-size: 15px;
+  margin-right: 10px;
+}

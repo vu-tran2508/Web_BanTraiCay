@@ -1,0 +1,159 @@
+.main-content {
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+.page-content {
+    padding: calc(70px + 1.25rem) 0.625rem 60px 0.625rem;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.page-title-box {
+    padding-bottom: 1.25rem;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.page-title-box .h4,
+.page-title-box h4 {
+    font-weight: 600;
+    font-size: 18px !important;
+}
+
+.page-title-box .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.col-xl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.row>* {
+    position: relative;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.card {
+    margin-bottom: 1.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.float-end {
+    float: right !important;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+.h4,
+h4 {
+    font-size: 1.35rem;
+}
+
+.me-1 {
+    margin-right: 0.25rem !important;
+}
+
+.col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.card-title {
+    font-size: 16px;
+    margin: 0 0 7px 0;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-sm-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.font-size-18 {
+    font-size: 18px !important;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+:where(.css-dev-only-do-not-override-2q8sxy).ant-col-16 {
+    --ant-display: block;
+    display: block;
+    display: var(--ant-display);
+    flex: 0 0 66.66666666666666%;
+     max-width: 100%; 
+}

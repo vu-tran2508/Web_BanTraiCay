@@ -1,0 +1,54 @@
+
+  .dropdown-menu {
+    display: none;
+    box-shadow: 0 2px 4px rgba(15,34,58,.12);
+    animation-name: DropDownSlide;
+    animation-duration: .3s;
+    animation-fill-mode: both;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+
+    
+}
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  .dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-dropdown-link-active-color);
+    text-decoration: none;
+    background-color: var(--bs-dropdown-link-active-bg);
+}
+.dropdown-item .active, .dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: var(--bs-dropdown-link-active-bg);
+}
+.dropdown-item:hover {
+  text-decoration: none;
+  background-color: rgb(245, 243, 245);
+}
+
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20%);
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms ease-in, transform 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20%);
+  transition: opacity 500ms ease-in, transform 500ms ease-in;
+}

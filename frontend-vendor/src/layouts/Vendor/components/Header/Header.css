@@ -1,0 +1,115 @@
+
+.logo-dark {
+  display: block;
+}
+
+.logo {
+  line-height: 70px;
+}
+a, button {
+  outline: none!important;
+}
+a {
+  text-decoration: none!important;
+}
+.px-3 {
+  padding-right: 1rem!important;
+  padding-left: 1rem!important;
+}
+.btn-group-sm>.btn, .btn-sm {
+  --bs-btn-padding-y: 0.25rem;
+  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-font-size: 0.7875rem;
+  --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+.font-size-16 {
+  font-size: 16px!important;
+}
+#page-topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 250px;
+  z-index: 1002;
+  background-color: var(--bs-header-bg);
+  box-shadow: 0 2px 4px rgba(15,34,58,.12);
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 70px;
+  padding: 0 0.625rem 0 0;
+}
+
+.navbar-header .navbar-brand-box {
+  display: none;
+}
+
+.navbar-brand-box {
+  padding: 0 1.5rem;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  background-color: var(--bs-sidebar-bg);
+}
+.navbar-header .vertical-menu-btn {
+   display: none; 
+}
+
+.header-item, .header-item:hover {
+  color: var(--bs-header-item-color);
+}
+.header-item {
+  height: 70px;
+  box-shadow: none!important;
+  border: 0;
+  border-radius: 0;
+}
+.app-search {
+  padding: 16px 0;
+}
+
+.app-search {
+  margin-left: 10px;
+}
+@media (min-width: 992px){
+.d-lg-block {
+  display: block!important;
+}
+}
+.app-search .form-control {
+  border: none;
+  height: 38px;
+  padding-left: 40px;
+  padding-right: 20px;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 5px;
+}
+.app-search span {
+  position: absolute;
+  z-index: 10;
+  font-size: 16px;
+  line-height: 38px;
+  left: 13px;
+  top: 0;
+  color: #74788d;
+}
+
+
+.noti-icon i {
+  font-size: 22px;
+  color: var(--bs-header-item-color);
+}
+.header-profile-user {
+  height: 36px;
+  width: 36px;
+  background-color: var(--bs-tertiary-bg);
+  padding: 3px;
+}

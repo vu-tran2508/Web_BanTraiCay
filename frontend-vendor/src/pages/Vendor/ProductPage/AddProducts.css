@@ -1,0 +1,109 @@
+.page-title-box .h4, .page-title-box h4 {
+    font-weight: 600;
+    font-size: 18px!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.page-title-box .h4, .page-title-box h4 {
+    font-weight: 600;
+    font-size: 18px!important;
+}
+.page-title-box .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+.breadcrumb-item>a {
+    color: var(--bs-body-color);
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+.form-add{
+    border-radius: 0.375rem !important;
+    border-width: 1px !important;
+    border: 1px solid rgb(203, 198, 198) !important;
+    height: 2.5rem !important;
+}
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    border-color: var(--ck-color-base-border);
+    height: 100px !important;
+}
+.boder-top {
+    padding-bottom: 10px;
+    border-top: 1px solid #e3dbdb;
+
+  }
+  .border {
+    border-width: 2px;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+.flex{
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+.py-5 {
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}
+
+.border-t {
+    border-top-width: 1px;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.sticky {
+    position: sticky;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.form-search {
+    height: 25px;
+    width: 200px;
+    border: none !important; /* Loại bỏ border cho input */
+}
+
+.form-search:focus {
+    outline: none; /* Loại bỏ cả outline khi input được chọn */
+}
+.searchLabel{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #151313; /* Đặt lại border khi input được chọn */
+
+}
+.preview-image{
+    flex: 1 !important;
+    position: relative;
+}
+.col-image{
+    border: 1px solid #e3dbdb;
+    border-radius: 5px;
+    height: 140px;
+    margin: 10px;
+    width: 160px !important;
+}

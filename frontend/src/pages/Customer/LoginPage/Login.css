@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
+
+.layout-account {
+    margin-bottom: 50px;
+    padding-top: 80px;
+    border-top: 1px solid #eae4e8;
+    ;
+}
+
+.containerLogin {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapbox-content-account {
+    margin: 35px auto 50px;
+    padding: 25px 30px 30px;
+}
+
+.customers_accountForm {
+    width: 620px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -80px !important;
+
+    margin: 35px auto 50px;
+    background: #ffffff;
+    padding: 25px 30px 30px;
+}
+
+.layout-account .tab-form-account {
+    margin-bottom: 45px;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.layout-account .tab-form-account h4 {
+    font-family: Quicksand;
+    padding: 0px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+}
+
+.layout-account .tab-form-account h4.active a {
+    color: #000;
+}
+
+.layout-account .tab-form-account h4+h4 {
+    border-left: 2px solid gray;
+}
+
+.customers_accountForm .accounttype h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+    font-weight: 600;
+}
+
+.customers_accountForm .large_form {
+    margin-bottom: 25px;
+}
+
+.customers_accountForm .icon-field {
+    display: none;
+}
+
+.customers_accountForm input[type=email],
+.customers_accountForm input[type=password],
+.customers_accountForm input[type=text] {
+    width: 100% !important;
+    height: 55px;
+    padding: 5px 20px;
+    color: #000;
+    font-weight: 400;
+    border: 1px solid transparent;
+    background: #ededed;
+    outline: none;
+    appearance: none;
+    font-style: italic;
+}
+
+.customers_accountForm input[type=email]::placeholder,
+.customers_accountForm input[type=password]::placeholder,
+.customers_accountForm input[type=text]::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+}
+.sitebox-recaptcha {
+    padding: 6px 0 0;
+    text-align: left;
+    color: #9e9e9e;
+    font-size: 13px;
+    clear: both;
+}
+
+.customers_accountForm input[type=email]:focus,
+.customers_accountForm input[type=password]:focus,
+.customers_accountForm input[type=text]:focus {
+    background: #fff;
+    border-color: #ededed;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.customers_accountForm .custommer_account_action {
+    display: -ms-flex;
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+.customers_accountForm .req_pass {
+    padding-left: 30px;
+    margin-right: auto;
+}
+.customers_accountForm .req_pass p {
+    color: #252A2B;
+   font-size: 14px;
+   font-family: Quicksand, sans-serif;
+}
+.btnLogin {
+    display: inline-block;
+    padding: 0 35px;
+    height: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background-color: rgb(64, 184, 123);
+    border: 1px solid rgb(64, 184, 123);
+    font-size: 14px;
+    outline: none;
+    appearance: none;
+}
+.btn-social {
+    display: block !important;
+    margin-top: 10px;
+}
+.btn-social button.btsocialloginfb {
+    background: #3b5998;
+    margin-right: 3px !important;
+}
+
+.btn-social button.btsociallogingg {
+    background: #de5245;
+}
+.btn-social button {
+    display: inline-block;
+    width: 49%;
+}
+.btn-social button.btsocialloginfb, .btn-social button.btsociallogingg {
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 0;
+}
+@media (min-width: 992px) {
+    .containerLogin {
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .containerLogin {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerLogin {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .containerLogin {
+        max-width: 540px;
+    }
+}

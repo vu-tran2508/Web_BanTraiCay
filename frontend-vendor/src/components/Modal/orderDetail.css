@@ -1,0 +1,88 @@
+.invoice-wrapper{
+
+        border-top: 1px solid #cbcbcb;
+    
+}
+.invoice-wrapper .card-default .card-body {
+    padding: 24px;
+}
+.invoice-wrapper .info-grid {
+    font-style: normal;
+    line-height: inherit;
+    height: 100%;
+    overflow: hidden;
+}
+
+.invoice-wrapper address {
+    margin-bottom: 0rem;
+    font-style: normal;
+    line-height: inherit;
+}
+.invoice-wrapper .info-content {
+    padding: 6px;
+    background: rgba(91, 147, 255, 0.05);
+    border: 1px dashed rgba(221, 221, 221, 0.7);
+    border-radius: 12px;
+    height: 100%;
+}
+.title_infos {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.info-content .mdi {
+    background: #FFFFFF;
+    box-shadow: 1px 6px 12px rgb(0 0 0 / 6%);
+    color: var(--bs-blue);
+    font-size: 24px;
+    padding: 3px;
+    border-radius: 50%;
+    width: 35px;
+    display: block;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+.invoice-wrapper .info-content ul li {
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.invoice-wrapper p,.invoice-wrapper li,.invoice-wrapper span {
+    letter-spacing: 0.02rem;
+}
+.info-content ul li span {
+    font-weight: 400;
+}
+.invoice-wrapper .card-body{
+    padding-top: 5px;
+}
+.invoice-wrapper .mt-5, .my-5 {
+    margin-top: 30px !important;
+}
+.invoice-wrapper .card-default .card-header-border-bottom {
+    border-bottom: 1px solid #cbcbcb;
+}
+.invoice-wrapper .card-default .card-header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.invoice-wrapper .card-default .card-header h2{
+    color: #343239;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+}
+.invoice-wrapper .table tr.line {
+    border-bottom: 1px solid #ccc;
+}
+.invoice-wrapper .product-img {
+    width: 50px;
+    /* border-radius: 15px; */
+}
+.invoice-wrapper .table-responsive {
+    overflow-x: auto;
+
+    -webkit-overflow-scrolling: touch;
+}

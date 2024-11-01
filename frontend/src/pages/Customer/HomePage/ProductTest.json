@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "Chim Ớt Đỏ Thái Lan",
+      "nation": "Thailand",
+      "image": "../../../assets/images/products/SP1.jpeg",
+      "price": "89,500₫",
+      "unit": "KG",
+      "discountLabel": "../../../assets/images/Logo/LogoGiamGia.png",
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "name": "Chim Ớt Đỏ Thái Lan",
+      "nation": "Thailand",
+      "image": "../../../assets/images/products/SP3.jpeg",
+      "price": "89,500₫",
+      "unit": "KG",
+      "discountLabel": "../../../assets/images/Logo/LogoGiamGia.png",
+      "isFavorite": false
+    },
+    {
+      "id": 3,
+      "name": "Chim Ớt Đỏ Thái Lan",
+      "nation": "Thailand",
+      "image": "../../../assets/images/products/SP3.jpeg",
+      "price": "89,500₫",
+      "unit": "GÓI",
+      "discountLabel": "../../../assets/images/Logo/LogoGiamGia.png",
+      "isFavorite": true
+    },
+    {
+      "id": 4,
+      "name": "Chim Ớt Đỏ Thái Lan",
+      "nation": "Thailand",
+      "image": "../../../assets/images/products/SP1.jpeg",
+      "price": "89,500₫",
+      "unit": "GÓI",
+      "discountLabel": "../../../assets/images/Logo/LogoGiamGia.png",
+      "isFavorite": true
+    },
+    {
+      "id": 5,
+      "name": "Chim Ớt Đỏ Thái Lan",
+      "nation": "Thailand",
+      "image": "../../../assets/images/products/SP3.jpeg",
+      "price": "89,500₫",
+      "unit": "KG",
+      "discountLabel": "../../../assets/images/Logo/LogoGiamGia.png",
+      "isFavorite": false
+    }
+  ]
+  

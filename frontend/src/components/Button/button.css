@@ -1,0 +1,41 @@
+
+
+.lindaQuant {
+    margin-top: 5px!important;
+}
+.me-1 {
+    margin-right: 0.25rem!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.d-flex {
+    display: flex!important;
+}
+
+
+.lindaQuant span {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #40b87b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #40b87b;
+}
+ .lindaQuant span:nth-child(2) {
+    width: 115px;
+    font-size: 20px;
+}
+.mx-2 {
+    margin-right: 0.5rem!important;
+    margin-left: 0.5rem!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}

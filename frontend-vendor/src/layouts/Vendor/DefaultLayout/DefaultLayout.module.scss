@@ -1,0 +1,23 @@
+.content {
+    flex: 1;
+}
+#page-topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 250px;
+    z-index: 1002;
+    background-color: var(--bs-header-bg);
+    box-shadow: 0 2px 4px rgba(15,34,58,.12);
+}
+
+
+
+
+.main-content {
+    margin-left: 250px;
+    overflow: hidden;
+}
+.page-content {
+    padding: calc(70px + 1.25rem) 0.625rem 60px 0.625rem;
+}

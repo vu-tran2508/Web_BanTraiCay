@@ -1,0 +1,221 @@
+
+.miniKartCont {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    box-shadow: 0 1px 18px -3px rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+}
+
+.d-block {
+    display: block !important;
+}
+
+@media (min-width: 800px) {
+    .miniKart {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.miniKart {
+    width: 395px;
+    height: 90vh;
+    background: #f5f5f5;
+    border: 1px solid #edecec;
+}
+
+.miniKartOver {
+    width: 395px !important;
+    height: 100vh !important;
+    margin-left: auto !important;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+
+.miniKart .minKart_strip span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-area {
+    background: #eceff1;
+    font-weight: 600;
+    padding: 0.65rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-area img {
+    width: 18px;
+    margin-right: 0.5rem;
+}
+
+.miniKartOver .minikart_main {
+    height: 75vh !important;
+    overflow-y: auto;
+}
+
+.miniKart .miniKart_pricing {
+    background: #fff;
+}
+
+.miniKart .miniKart_pricing .d-flex {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 1.5rem;
+}
+
+.miniKart .miniKart-product {
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+#subtotal {
+    display: none !important;
+}
+
+.miniKart .miniKart_pricing .d-flex span {
+    color: #666;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.miniKart .miniKart_pricing .d-flex:last-child {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.miniKart .miniKart-product .img-wrap {
+    width: 20%;
+    height: 100px;
+}
+
+.miniKart .miniKart-product .img-wrap img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.miniKart .miniKart-product .text-wrap {
+    width: 80%;
+    padding-left: 20px;
+}
+
+.text-wrap {
+    white-space: normal !important;
+}
+
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.miniKart .miniKart-product .text-wrap h2 {
+    font-size: 14px;
+    color: #666;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.align-items-baseline {
+    align-items: baseline !important;
+}
+
+#fa-solid {
+    border: 1px solid #666;
+    font-size: .7rem;
+    height: 17px;
+    width: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #666;
+    cursor: pointer;
+}
+
+/* giam giá */
+.miniKart .miniKart-product .text-wrap .product-off {
+    background-color: #f2fef2;
+    border: 1px solid #51aa1b;
+    border-radius: 3px;
+    color: #51aa1b;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0 5px;
+    font-size: 11px;
+}
+
+.miniKart .miniKart-coupon {
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+}
+
+.py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.miniKart .miniKart-coupon img {
+    width: 1.3rem;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+
+.miniKart .minikart_footer {
+    margin-top: auto;
+    background: #fff;
+}
+
+.miniKart .minikart_footer .btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+}
